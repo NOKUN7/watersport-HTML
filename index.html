@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spotless Hungry Crocodile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter Tight"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT Serif"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-header">
+          <header
+            data-thq="thq-navbar"
+            class="home-navbar-interactive navbarContainer"
+          >
+            <span class="home-logo logo">WATERSPORT</span>
+            <div data-thq="thq-navbar-nav" class="home-desktop-menu">
+              <nav class="home-links">
+                <span>Thuis</span>
+                <a href="activiteiten.html" class="home-nav32 bodySmall">
+                  Activiteiten
+                </a>
+                <a href="contact.html" class="home-nav52 bodySmall">Contact</a>
+              </nav>
+              <div class="home-buttons">
+                <button class="home-login buttonFlat">inloggen</button>
+                <button class="home-register buttonFilled">Register</button>
+              </div>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon socialIcons">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div
+              data-thq="thq-mobile-menu"
+              class="home-mobile-menu1 mobileMenu"
+            >
+              <div class="home-nav">
+                <div class="home-top">
+                  <span class="logo">WATERSPORTS</span>
+                  <div data-thq="thq-close-menu" class="home-close-menu">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="home-icon02 socialIcons"
+                    >
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav class="home-links1">
+                  <span class="home-nav121 bodySmall">Home</span>
+                  <span class="home-nav22 bodySmall">About Us</span>
+                  <span class="home-nav321 bodySmall">Activities</span>
+                  <span class="home-nav42 bodySmall">Locations</span>
+                  <span class="home-nav521 bodySmall">Contact</span>
+                </nav>
+                <div class="home-buttons1">
+                  <button class="buttonFlat">Login</button>
+                  <button class="buttonFilled">Register</button>
+                </div>
+              </div>
+              <div>
+                <svg
+                  viewBox="0 0 950.8571428571428 1024"
+                  class="home-icon04 socialIcons"
+                >
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  class="home-icon06 socialIcons"
+                >
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 602.2582857142856 1024"
+                  class="home-icon08 socialIcons"
+                >
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="home-hero">
+          <div class="home-hero1 heroContainer">
+            <div class="home-container01">
+              <h1 class="home-hero-heading">
+                <span>Ontdek de wereld van Watersport!</span>
+                <br />
+              </h1>
+              <span class="home-hero-sub-heading bodyLarge">
+                <span>
+                  <span>
+                    <span>
+                      Your Ultimate Destination for Watersport Enthusiasts
+                    </span>
+                    <span></span>
+                  </span>
+                  <span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                </span>
+                <span>
+                  <span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                  <span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                </span>
+              </span>
+              <div class="home-btn-group">
+                <button class="buttonFilled">Ontdek meer</button>
+                <button class="home-hero-button2 buttonFlat">Leer meer→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-features">
+          <div class="featuresContainer">
+            <div class="home-features1">
+              <div class="home-container02">
+                <span class="overline">
+                  <span>categorieen</span>
+                  <br />
+                </span>
+                <h2 class="home-features-heading">
+                  Categorieen van Watersport
+                </h2>
+                <span class="home-features-sub-heading bodyLarge">
+                  <span>
+                    <span>
+                      <span>
+                        Discover the key features that make our watersports
+                        website the ultimate destination for adventure seekers.
+                      </span>
+                      <span></span>
+                    </span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </span>
+                </span>
+              </div>
+              <div class="home-container03">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHN1cmZ8ZW58MHx8fHwxNzExNDY1Njg2fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=500"
+                  class="home-image"
+                />
+                <div class="featuresCard feature-card-feature-card">
+                  <svg viewBox="0 0 1024 1024" class="featuresIcon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <div class="feature-card-container">
+                    <h3 class="feature-card-text heading3">
+                      <span>Surfing</span>
+                    </h3>
+                    <span class="bodySmall">
+                      <span>
+                        Surfen is een watersport waarbij een individu, een
+                        surfer (of twee bij tandem surfen), een plank gebruikt
+                        om op het voorste gedeelte, of de golf, van een
+                        bewegende golf van water te rijden, die de surfer
+                        meestal richting de kust draagt. Golven die geschikt
+                        zijn om te surfen, worden voornamelijk gevonden op
+                        oceaankusten, maar kunnen ook worden gevonden in staande
+                        golven in de open oceaan, in meren, in rivieren in de
+                        vorm van een getijdeboeg, of in golfslagbaden.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="featuresCard feature-card-feature-card">
+                  <svg viewBox="0 0 1024 1024" class="featuresIcon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <div class="feature-card-container">
+                    <h3 class="feature-card-text heading3">
+                      <span>Canoeing</span>
+                    </h3>
+                    <span class="bodySmall">
+                      <span>
+                        Kanoën is een activiteit waarbij je een kano
+                        voortbeweegt met een enkelbladige peddel. De
+                        gebruikelijke betekenissen van de term zijn beperkt tot
+                        wanneer het kanoën het hoofddoel van de activiteit is.
+                        Ruimere betekenissen omvatten situaties waarin het wordt
+                        gecombineerd met andere activiteiten zoals kanokamperen,
+                        of waar kanoën slechts een transportmethode is die wordt
+                        gebruikt om andere activiteiten uit te voeren. De meeste
+                        kanoën die tegenwoordig wordt gedaan, gebeurt als
+                        onderdeel van een sport- of recreatieve activiteit. In
+                        sommige delen van Europa verwijst kanoën zowel naar
+                        kanoën als kajakken, waarbij een kano een open kano
+                        wordt genoemd.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1596281354468-2135e1dd0c22?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8c2VhcmNofDM1fHx3YXRlcnNwb3J0c3xlbnwwfHx8fDE3MTE0NjU3NDd8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="home-image1"
+                />
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1552340745-89c5073640ad?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE0fHxmaXNoaW5nfGVufDB8fHx8MTcxMTQ2NjAyNHww&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=500"
+                  class="home-image2"
+                />
+                <div class="featuresCard feature-card-feature-card">
+                  <svg viewBox="0 0 1024 1024" class="featuresIcon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <div class="feature-card-container">
+                    <h3 class="feature-card-text heading3">
+                      <span>Fishing</span>
+                    </h3>
+                    <span class="bodySmall">
+                      <span>
+                        Vissen is de activiteit van het proberen om vis te
+                        vangen. Vissen worden vaak gevangen als wild uit de
+                        natuurlijke omgeving (zoetwater of zee), maar kunnen ook
+                        worden gevangen uit beheerde waterlichamen zoals
+                        vijvers, kanalen, parkmoerassen en reservoirs.
+                        Vismethoden omvatten handmatig verzamelen, speervissen,
+                        netten, vissen, schieten en vangen, evenals meer
+                        destructieve en vaak illegale technieken zoals
+                        elektrocutie, explosieven en vergiftiging.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1492366254240-43affaefc3e3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHx3YXRlcnNwb3J0c3xlbnwwfHx8fDE3MTE0NjU3Mjd8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                  class="home-image3"
+                />
+                <div class="featuresCard feature-card-feature-card">
+                  <svg viewBox="0 0 1024 1024" class="featuresIcon">
+                    <path
+                      d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                    ></path>
+                  </svg>
+                  <div class="feature-card-container">
+                    <h3 class="feature-card-text heading3">
+                      <span>Rafting</span>
+                    </h3>
+                    <span class="bodySmall">
+                      <span>
+                        Raften en wildwater-raften zijn recreatieve
+                        buitenactiviteiten waarbij een opblaasbare raft wordt
+                        gebruikt om een rivier of ander waterlichaam te
+                        navigeren. Dit wordt vaak gedaan op wildwater of
+                        verschillende gradaties van ruw water. Het omgaan met
+                        risico's is vaak een onderdeel van de ervaring. Deze
+                        activiteit als avontuursport is populair geworden sinds
+                        de jaren 1950, zo niet eerder, en heeft zich ontwikkeld
+                        van individuen die peddelen met 3,0 meter tot 4,3 meter
+                        lange vlotten met dubbelbladige peddels of roeispanen
+                        tot meerpersonen vlotten voortgestuwd door enkele
+                        peddels en gestuurd door een persoon aan het achtereind,
+                        of door het gebruik van roeispanen. Raften op bepaalde
+                        riviergedeelten wordt beschouwd als een extreme sport en
+                        kan fataal zijn, terwijl andere gedeelten niet zo
+                        extreem of moeilijk zijn. Raften is ook een competitieve
+                        sport die over de hele wereld wordt beoefend en die
+                        uitmondt in een wereldkampioenschap raften tussen de
+                        deelnemende landen. De International Rafting Federation,
+                        vaak aangeduid als de IRF, is het wereldwijde orgaan dat
+                        toezicht houdt op alle aspecten van de sport.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-pricing">
+          <div class="pricingContainer">
+            <div class="home-container04">
+              <span>prijzen</span>
+              <h2 class="home-pricing-heading">
+                <span class="home-text34 heading2">
+                  Kies jouw watersportavontuur.
+                </span>
+                <br />
+                <br class="home-text36 heading2" />
+                <br />
+                <br class="home-text38 heading2" />
+                <br />
+                <br class="home-text40 heading2" />
+              </h2>
+              <span class="home-pricing-sub-heading bodyLarge">
+                <span>
+                  <span>
+                    Select the plan that best fits your watersport needs and
+                    start enjoying the thrill today!
+                  </span>
+                </span>
+              </span>
+            </div>
+            <div class="home-container05">
+              <div class="freePricingCard home-pricing-card">
+                <div class="home-container06">
+                  <span class="home-text43">Gratis.</span>
+                  <span>
+                    Perfect voor beginners die watersporten willen uitproberen.
+                  </span>
+                </div>
+                <div class="home-container07">
+                  <span class="home-text44">
+                    <span>$</span>
+                    <span></span>
+                  </span>
+                  <span class="home-free-plan-price">0</span>
+                </div>
+                <div class="home-container08">
+                  <div class="home-container09">
+                    <span class="home-text47">✔</span>
+                    <span>Toegang tot basis watersportuitrusting.</span>
+                  </div>
+                  <div class="home-container10">
+                    <span class="home-text48">✔</span>
+                    <span>Beperkte toegang tot beginnerslessen.</span>
+                  </div>
+                  <div class="home-container11">
+                    <span class="home-text49">✔</span>
+                    <span>Veiligheidsuitrusting inbegrepen.</span>
+                  </div>
+                  <div class="home-container12">
+                    <span class="home-text50">✔</span>
+                    <span>Toegang tot het gemeenschapsforum.</span>
+                  </div>
+                </div>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link buttonOutline"
+                >
+                  Ga door met Gratis.
+                </a>
+              </div>
+              <div class="basicPricingCard home-pricing-card1">
+                <div class="home-container13">
+                  <span class="home-text51">Basis.</span>
+                  <span>
+                    Geweldig voor enthousiastelingen die hun vaardigheden willen
+                    verbeteren.
+                  </span>
+                </div>
+                <div class="home-container14">
+                  <span class="home-text52">
+                    <span>$</span>
+                    <span></span>
+                  </span>
+                  <span class="home-basic-plan-pricing">29</span>
+                  <span class="home-text55">/maand</span>
+                </div>
+                <div class="home-container15">
+                  <div class="home-container16">
+                    <span class="home-text56">✔</span>
+                    <span>All features of FREE plan</span>
+                  </div>
+                  <div class="home-container17">
+                    <span class="home-text58">✔</span>
+                    <span>Volledige toegang tot watersportuitrusting.</span>
+                  </div>
+                  <div class="home-container18">
+                    <span class="home-text59">✔</span>
+                    <span>Onbeperkte toegang tot tussenliggende lessen.</span>
+                  </div>
+                  <div class="home-container19">
+                    <span class="home-text60">✔</span>
+                    <span>Kortingen op gevorderde lessen.</span>
+                  </div>
+                  <div class="home-container20">
+                    <span class="home-text61">✔</span>
+                    <span>Voorrang bij klantenservice.</span>
+                  </div>
+                </div>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link1 buttonFilledSecondary"
+                >
+                  Probeer het Basisplan.
+                </a>
+              </div>
+              <div class="proPricingCard home-pricing-card2">
+                <div class="home-container21">
+                  <span class="home-text62 heading3">
+                    <span>PRO</span>
+                    <br />
+                  </span>
+                  <span>
+                    Voor serieuze watersportprofessionals die streven naar een
+                    eersteklas ervaring.
+                  </span>
+                </div>
+                <div class="home-container22">
+                  <span class="home-text65">
+                    <span>$</span>
+                    <span></span>
+                  </span>
+                  <span class="home-pro-plan-pricing">59</span>
+                  <span class="home-text68">/maand</span>
+                </div>
+                <div class="home-container23">
+                  <div class="home-container24">
+                    <span class="home-text69">✔</span>
+                    <span>Alle functies van het BASIS plan</span>
+                  </div>
+                  <div class="home-container25">
+                    <span class="home-text71">✔</span>
+                    <span>Premium selectie van watersportuitrusting.</span>
+                  </div>
+                  <div class="home-container26">
+                    <span class="home-text72">✔</span>
+                    <span>VIP-toegang tot alle lessen en evenementen.</span>
+                  </div>
+                  <div class="home-container27">
+                    <span class="home-text73">✔</span>
+                    <span>Exclusieve kortingen op merchandise.</span>
+                  </div>
+                  <div class="home-container28">
+                    <span class="home-text74">✔</span>
+                    <span>24/7 toegewijde ondersteuning</span>
+                  </div>
+                </div>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link2 buttonFilledSecondary"
+                >
+                  Probeer het PRO-plan.
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-banner">
+          <div class="bannerContainer home-banner1">
+            <span class="home-banner-sub-heading bodySmall">
+              <span>
+                <span>
+                  <span>
+                    Dive into a world of excitement and adventure with our wide
+                    range of watersports activities. Whether you're a beginner
+                    or a seasoned pro, we have something for everyone. From
+                    surfing and paddleboarding to jet skiing and snorkeling, get
+                    ready to make a splash and create unforgettable memories on
+                    the water.
+                  </span>
+                  <span></span>
+                </span>
+                <span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </span>
+              <span>
+                <span>
+                  <span></span>
+                  <span></span>
+                </span>
+                <span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </span>
+            </span>
+            <h1 class="home-banner-heading">
+              Waarom is watersport zo interessant
+            </h1>
+          </div>
+        </div>
+        <div class="home-faq">
+          <div class="faqContainer">
+            <div class="home-faq1">
+              <div class="home-container29"></div>
+              <div class="home-container30">
+                <div class="question1-container">
+                  <span class="question1-text heading3">
+                    <span>
+                      Passie delen: Als je een gepassioneerde beoefenaar bent
+                      van een watersport zoals surfen, zeilen, kajakken of
+                      duiken, dan weet je hoe verrijkend en opwindend deze
+                      activiteiten kunnen zijn. Door een website te maken, kun
+                      je jouw liefde voor watersport delen met anderen, zowel
+                      ervaren liefhebbers als nieuwkomers die deze wereld willen
+                      verkennen. Informatie verschaffen: Een website biedt een
+                      platform om waardevolle informatie te verstrekken over
+                      verschillende aspecten van watersport. Of het nu gaat om
+                      veiligheidsrichtlijnen, technieken en vaardigheden,
+                      uitrustingsoverzichten, of inspirerende verhalen en
+                      reisverslagen, jouw website kan een bron van kennis en
+                      advies zijn voor mensen die geïnteresseerd zijn in
+                      watersport. Gemeenschapsopbouw: Watersport brengt mensen
+                      samen. Door een website te creëren, kun je een online
+                      gemeenschap opbouwen van gelijkgestemde individuen die hun
+                      ervaringen, tips en avonturen willen delen. Dit kan leiden
+                      tot waardevolle connecties, vriendschappen en
+                      mogelijkheden voor samenwerking en uitwisseling van
+                      informatie. Educatie en bewustwording: Watersport gaat
+                      niet alleen over plezier maken, maar ook over respect voor
+                      de natuurlijke omgeving, veiligheid en duurzaamheid. Door
+                      educatieve inhoud en bewustmakingscampagnes op te nemen op
+                      jouw website, kun je bijdragen aan het behoud van onze
+                      waterrijke ecosystemen en het bevorderen van
+                      verantwoordelijk gedrag onder watersporters. Kortom, het
+                      maken van een website over watersport biedt een unieke
+                      kans om jouw passie te uiten, kennis te delen, een
+                      gemeenschap op te bouwen en bij te dragen aan een groter
+                      bewustzijn van de schoonheid en het belang van onze
+                      wateren. Dus waar wacht je nog op? Duik in de wereld van
+                      webdesign en laat jouw passie voor watersport schitteren!
+                    </span>
+                  </span>
+                  <span class="bodySmall"><span>watersport.2024</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-footer">
+          <footer class="footerContainer home-footer1">
+            <div class="home-container31">
+              <span class="home-logo2 logo">WATERSPORTS</span>
+              <nav class="home-nav1"></nav>
+            </div>
+            <div class="home-separator"></div>
+            <div class="home-container32">
+              <span class="bodySmall home-text89">
+                © 2024 Never gonna give you up never gonna let you down, All
+                Rights Reserved.
+              </span>
+              <div class="home-icon-group1">
+                <svg
+                  viewBox="0 0 950.8571428571428 1024"
+                  class="home-icon10 socialIcons"
+                >
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  class="home-icon12 socialIcons"
+                >
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 602.2582857142856 1024"
+                  class="home-icon14 socialIcons"
+                >
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
